@@ -7,7 +7,34 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: image_1
+    properties: {source: _/theme/Mail_Phising.png, height: 288.79998779296875}
+    type: Image
+    layout_properties: {grid_position: 'DCYMAA,GOJMJL'}
+  - name: label_1
+    properties: {text: 'Provide Your Link:'}
+    type: Label
+    layout_properties: {grid_position: 'GZDZLJ,KVOHAN'}
+  - name: Link
+    properties: {visible: true}
+    type: TextBox
+    layout_properties: {grid_position: 'CLNAGR,RCSOZV'}
+  - name: Check
+    properties: {text: Check, font_size: 22}
+    type: Button
+    layout_properties: {grid_position: 'PWXXES,HRILNI'}
+    event_bindings: {click: Check_click}
+  - name: label_2
+    properties: {align: center, bold: true, text: Mail, visible: false, spacing_above: large,
+      spacing_below: large, font_size: 40}
+    type: Label
+    layout_properties: {grid_position: 'BOAEKC,IMIBTS'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: headline_1
+  properties: {role: headline, text: Mail Phising}
+  type: Label
+  layout_properties: {slot: title}

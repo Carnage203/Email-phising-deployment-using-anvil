@@ -4,6 +4,7 @@ unique_ids:
   modules: {}
   server_modules: {}
   assets:
+    Mail_Phising.png: '1714193157974427729716982.53314'
     standard-page.html: RYTO6NQT4PNSPZOJOM6YVFKDJZ5LHAWL
     theme.css: MZBMJVKPM22YPHM3H45ELMB2BDHKQVGB
   scripts: {}
