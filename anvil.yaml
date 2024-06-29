@@ -3,8 +3,7 @@ package_name: Mail_Phising
 name: Mail Phising
 startup_form: Form1
 uplink_visible: true
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox, server_spec: null}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
